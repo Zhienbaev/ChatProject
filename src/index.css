@@ -447,6 +447,23 @@ body{
     font-weight: 500;
 }
 
+.navBar{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    width: 200px;
+    padding: 10px;
+    background-color: #6363636c;
+    transition: 0.3s ease;
+    text-align: center;
+}
+.link:hover{
+    transform: scale(1.01);
+}
 .bitcoin{
     position: absolute;
     padding: 5px;

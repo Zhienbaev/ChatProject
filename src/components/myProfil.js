@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class MyProfill extends React.Component {
     render(){
@@ -40,6 +41,7 @@ class MyProfill extends React.Component {
                         </tr>
                     </tfoot>
                 </table>
+                <div className="link"><Link to="/MyChat">Назад</Link></div>
             </div>
         )
     }

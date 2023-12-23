@@ -1,5 +1,6 @@
 import React from "react";
 import Chater from "./ChatWith";
+import { Link } from "react-router-dom";
 
 
 class Contacts extends React.Component{
@@ -36,7 +37,7 @@ class Contacts extends React.Component{
                               this.onTaping(e)
                         }
                 }} />
-                <div className="my-profil" onClick={this.props.ShowProfil}>Мой Профиль</div>
+                <div className="my-profil" > <Link to="/MyProfill"> Мой Профиль </Link> </div>
             </div>
         )
     }

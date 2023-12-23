@@ -55,6 +55,7 @@ class App extends React.Component{
     }
     render(){
         return(
+            
             <div className="Container">
                 <Contact ShowProfil={this.showProfil} Editing={()=> {this.setState({isEditing: !this.state.isEditing})}} filteredChaters={this.filterChaters} selectUser={this.selectUser} addChater={this.addChater} chaters={!this.state.isFiltered ? this.state.chaters : this.state.favoriteContacts} deleteContact={this.deleteContact} />
                 <div className="chat-container">
